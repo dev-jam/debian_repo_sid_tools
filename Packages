@@ -1,0 +1,186 @@
+Package: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 270
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14)
+Filename: ./libjpeg8_8d1-2.1_amd64.deb
+Size: 119520
+MD5sum: df015d5750072beac4f3b92665e1654d
+SHA1: da8175ecfa25381bd2357ab5475f86a8faa04a05
+SHA256: 12ea9e3327d6f152f08ff63a1e96a8d9b7389b4f12a27d3a8197c2b8c4fbb0cb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Independent JPEG Group's JPEG runtime library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the shared library.
+
+Package: libjpeg8-dbg
+Source: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 889
+Depends: libjpeg8 (= 8d1-2.1)
+Replaces: libjpeg62-dbg, libjpeg7-dbg
+Provides: libjpeg-dbg
+Filename: ./libjpeg8-dbg_8d1-2.1_amd64.deb
+Size: 262564
+MD5sum: c31a815e1cabbcd3dc0e0441656d31d2
+SHA1: 157e81d32b71081d749666370fb5aaf71a7e7e90
+SHA256: 2ff5dcda9909824d9b9bfe4d36c858f56c0018fff015441a628828588a8f2365
+Section: debug
+Priority: extra
+Description: Development files for the IJG JPEG library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the debugging symbols for libjpeg.
+
+Package: libjpeg8-dev
+Source: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 495
+Depends: libjpeg8 (= 8d1-2.1), libc-dev
+Conflicts: libjpeg62-dev, libjpeg7-dev
+Replaces: libjpeg62-dev, libjpeg7-dev
+Filename: ./libjpeg8-dev_8d1-2.1_amd64.deb
+Size: 217188
+MD5sum: 7b9abbee4fc35648439591292a391b29
+SHA1: 1b9c658baf912dec6e27048657e248f273432251
+SHA256: c04c02601ddebd2a0e1a44396b71aee142bc29598336e5ca8f337db77000b3fb
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Development files for the IJG JPEG library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the static library, headers and documentation.
+
+Package: multiarch-support
+Source: glibc
+Version: 2.28-10
+Architecture: amd64
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.3.6-2)
+Filename: ./multiarch-support_2.28-10_amd64.deb
+Size: 215080
+MD5sum: 4d7679dae0409b7bf18c13f4e05974ae
+SHA1: dd3d1163f82e601bfd9007561ea6f9b2007a7a23
+SHA256: 41afb694b49184f5c84b0df610cc667de9c95c8a85baf515da7fabb942f4effd
+Section: oldlibs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: Transitional package to ensure multiarch compatibility
+ This is a transitional package used to ensure multiarch support is present
+ in ld.so before unpacking libraries to the multiarch directories.  It can
+ be removed once nothing on the system depends on it.
+
+Package: par2-turbo
+Source: par2cmdline-turbo
+Version: 1.1.1-0ubuntu1~jcfp1~22.04
+Architecture: amd64
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 1287
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
+Conflicts: par2, par2-mt, par2-tbb
+Provides: par2
+Filename: ./par2-turbo_1.1.1-0ubuntu1~jcfp1~22.04_amd64.deb
+Size: 437448
+MD5sum: fcac17990a44d70bfd985931aa96073b
+SHA1: 9cbb0fd2ba4974e2a43549d4ca331b7d30b7af81
+SHA256: fc32aacabad24d1c73f2a7142f200f3d825fa97ab2809851ba2b0eb578055ed3
+Section: utils
+Priority: optional
+Homepage: https://github.com/animetosho/par2cmdline-turbo
+Description: multithreaded PAR 2.0 compatible file verification and repair tool
+ par2cmdline-turbo is a command line utility for creating and using PAR2 files
+ to detect and repair damage in data files. It is most commonly used as
+ part of backup systems as well as on Usenet. This version differs from the
+ regular par2 by enhancements from parpar to increase performance.
+ .
+ In case files in a recovery set get damaged (e.g. while transmitted over
+ a network or stored on a faulty disk) the program can read the damaged
+ files and the (possibly damaged) PAR2 files, and regenerate the original
+ input files.
+
+Package: pdfgui-tools
+Version: 1.0.2
+Architecture: all
+Maintainer: TheWatcherMultiversal <universepenguin@protonmail.com>
+Depends: poppler-utils, python3-pyqt5, qtbase5-dev
+Filename: ./pdfgui_tools_stable-release_1.0.2_all.deb
+Size: 30132
+MD5sum: a945b929eb28afbb0f7ca0b39d1ec35a
+SHA1: 8caa57bd458389ca8400df9c9905ccea73e0010a
+SHA256: ea0db0cf72799e09a9a09d8398d7c360f0a16f5409ffa149e06dadf04f51cc29
+Section: editors
+Priority: optional
+Homepage: https://github.com/TheWatcherMultiversal/pdfgui_tools/
+Description: pdfgui_tools is a user interface tool developed in Qt
+ and Python that integrates with poppler-utils for PDF document
+ management. This simple and user-friendly tool allows you to merge
+ PDF files, convert PDF to HTML, as well as convert PDF to text.
+ Additionally, in the near future, more functions with additional
+ features will be added.
+
+Package: python3-bioread
+Version: 0:3.0.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 205
+Depends: python3-docopt (>= 0.6.1), python3-numpy, python3:any
+Filename: ./python3-bioread_3.0.1-1~w2d0_all.deb
+Size: 40648
+MD5sum: 0cd8e520cd4fc726582ea415fbaac37c
+SHA1: b527f3d22c9c59b8bb34f0fe793869528784fb9a
+SHA256: f7905d33648d708e812ee63d92b9eeb3699b3dcf0aa5e8abd71919298c8690f9
+Section: python
+Priority: optional
+Homepage: https://github.com/uwmadison-chm/bioread
+Description: Utilities to read BIOPAC AcqKnowledge files
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-dirsync
+Version: 0:2.2.5-1~w2d1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 60
+Depends: python3-six, python3:any
+Filename: ./python3-dirsync_2.2.5-1~w2d1_all.deb
+Size: 11152
+MD5sum: 8429791056fa194caf2b03e9c9b4db12
+SHA1: 238f42ae8cdf89126b970ccf123d2dbde6ee685f
+SHA256: acc2aab3844505c955ae424183a34108f7e17b175551c4f8864283931115a7cf
+Section: python
+Priority: optional
+Homepage: https://github.com/tkhyn/dirsync/
+Description: Advanced directory tree synchronisation tool
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: wheel2deb
+Version: 0:0.9.5+bsr-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 88
+Depends: python3 (>= 3.10~), python3-attr (>= 20.1), python3-colorama, python3-dirsync, python3-jinja2 (<< 4), python3-jinja2 (>= 3), python3-packaging, python3-pkginfo, python3-rich, python3-typer (>= 0.6.1), python3-wheel, python3-yaml, python3:any
+Filename: ./wheel2deb_0.9.5+bsr-1~w2d0_all.deb
+Size: 18876
+MD5sum: c9fb663b32b96114c5e86127fbb9e074
+SHA1: 1b0dbd6413e73750d5a8b23ca58275a74b0ad700
+SHA256: 36799b74a0996c13c1cd420d421df092c150b76c42e55846f3d4224cba45b45a
+Section: python
+Priority: optional
+Homepage: https://github.com/upciti/wheel2deb
+Description: Python wheel to debian package converter
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
