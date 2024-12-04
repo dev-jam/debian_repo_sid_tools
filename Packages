@@ -167,6 +167,23 @@ Homepage: https://github.com/tkhyn/dirsync/
 Description: Advanced directory tree synchronisation tool
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-ps-mem
+Version: 0:3.14-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 99
+Depends: python3:any
+Filename: ./python3-ps-mem_3.14-1~w2d0_all.deb
+Size: 19724
+MD5sum: 48d4d479faa51af5cbc80c503a589092
+SHA1: b6eb9a4f1efb243a015212177646923bf243c775
+SHA256: f6a53c840e6d7defd41947c87e8bd78b29220a45c2c986c98ceb8e14be843346
+Section: python
+Priority: optional
+Homepage: http://github.com/pixelb/ps_mem
+Description: A utility to report core memory usage per program
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: wheel2deb
 Version: 0:0.9.5+bsr-1~w2d0
 Architecture: all
