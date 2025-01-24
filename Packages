@@ -1,3 +1,65 @@
+Package: kde-servicemenu-reimage
+Version: 2.6.4
+Architecture: amd64
+Maintainer: Irfan Hakim <irfanhakim.as@yahoo.com>
+Installed-Size: 78
+Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
+Filename: ./kde-servicemenu-reimage_2.6.4_amd64.deb
+Size: 17296
+MD5sum: 2f62d74314a8334c003ed05b05d891c4
+SHA1: 37ced520615b674773ad1f8ac841604e9c338029
+SHA256: b09814041c97f02a33d55d048314e6d253bf739208a3d9ad82bc847e219b61df
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manipulate images and their metadata.
+ kde-service-menu-reimage is a package that extends the functionalities of
+ Dolphin/Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. These actions are related to picture files.
+ .
+ Compress and resize
+ Advanced optimization for web
+ Compress in % (change quality)
+ Resize in % or square
+ .
+ Convert and rotate
+ Convert to all formats supported by ImageMagick
+ Convert to PDF or PDF/A-1
+ Generate favicons for browser/android/apple/ms
+ Convert to Base64
+ Rotate
+ Overturn vertically/horizontally
+ .
+ Metadata:
+ Rename jpg and tiff files with data content in Exif metadata.
+ (For example: 001.jpg -> 2018-04-27_133741.jpg)
+ Rename jpg and tiff files with file's data.
+ Set file's datetime from Exif date.
+ Set file date from file's name
+ Set Exif datetime from file's date.
+ Set Exif datetime from file's name.
+ Add comment
+ View metadata
+ Extract metadata to file
+ Delete comment field
+ Strip Exif section
+ Delete IPTC section
+ Delete XMP section
+ Strip all unnecessary data
+ Add timestamp from Exif
+ .
+ Tools
+ Create animated GIF
+ Append to right
+ GrayScale
+ Sepia filter
+ Change transparent to color
+ Add colored border
+ Add transparent border
+ Drop shadow
+ .
+ Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
+
 Package: libjpeg8
 Version: 8d1-2.1
 Architecture: amd64
