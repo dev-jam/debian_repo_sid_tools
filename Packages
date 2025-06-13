@@ -149,18 +149,18 @@ Description: Transitional package to ensure multiarch compatibility
 
 Package: par2-turbo
 Source: par2cmdline-turbo
-Version: 1.1.1-0ubuntu1~jcfp1~22.04
+Version: 1.1.1-0ubuntu1~jcfp1~24.04
 Architecture: amd64
 Maintainer: Jeroen Ploemen <jcfp@debian.org>
-Installed-Size: 1287
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
+Installed-Size: 1319
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Conflicts: par2, par2-mt, par2-tbb
 Provides: par2
-Filename: ./par2-turbo_1.1.1-0ubuntu1~jcfp1~22.04_amd64.deb
-Size: 437448
-MD5sum: fcac17990a44d70bfd985931aa96073b
-SHA1: 9cbb0fd2ba4974e2a43549d4ca331b7d30b7af81
-SHA256: fc32aacabad24d1c73f2a7142f200f3d825fa97ab2809851ba2b0eb578055ed3
+Filename: ./par2-turbo_1.1.1-0ubuntu1~jcfp1~24.04_amd64.deb
+Size: 462974
+MD5sum: ac61fc20d8df58b25746f36619161359
+SHA1: a8dbd90a531d356635017c217c9ce280d7ef251a
+SHA256: 6c405cf4dff3ee2048c6004c459dcc688e79198fdd09457ed24f1007a2e8abf6
 Section: utils
 Priority: optional
 Homepage: https://github.com/animetosho/par2cmdline-turbo
