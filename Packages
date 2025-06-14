@@ -1,3 +1,32 @@
+Package: birdtray
+Version: 1.11.0+ds-0.1~bsr
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1276
+Depends: thunderbird, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
+Filename: ./birdtray_1.11.0+ds-0.1~bsr_amd64.deb
+Size: 378852
+MD5sum: 6e2ce05ff9fa44b8f504e501a8da1722
+SHA1: 02ff975cc0a780a7c7b2a1a18334ad0602c99131
+SHA256: 735ca7fdd042113e176cd2e9c0e18973f10edda00fc18b2049536e2eeaa30fdd
+Section: mail
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/gyunaev/birdtray
+Description: system tray notifications for Thunderbird
+ Birdtray provides systray notifications for Thunderbird.  It displays the
+ count of unread mail, hides the Thunderbird window when not in use, and
+ restores it on clicking the tray icon.  It also provides a context menu
+ with commands such as starting composing a new mail.
+ .
+ It is a nasty hack -- an external process looking at Thunderbird's
+ insides, it suffers from problems like noticing new mails only after a
+ delay, having to restart Thunderbird just to hide its window, etc --
+ you'd want to use an extension like firetray instead -- but, it is
+ likely that support for Thunderbird XUL extensions will be dropped soon,
+ possibly by the time you read these words.
+Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
+
 Package: kde-servicemenu-reimage
 Version: 2.6.4
 Architecture: amd64
