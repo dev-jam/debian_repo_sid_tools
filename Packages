@@ -155,6 +155,80 @@ Description: Development files for the IJG JPEG library
  .
  This package contains the static library, headers and documentation.
 
+Package: matlab-psychtoolbox-3
+Source: psychtoolbox-3-nonfree
+Version: 3.0.19.14-2~nd130+1
+Architecture: all
+Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
+Installed-Size: 19
+Depends: neurodebian-popularity-contest, matlab-psychtoolbox-3-nonfree (= 3.0.19.14-2~nd130+1), psychtoolbox-3-common (>= 3.0.19.14-2~nd130+1.dfsg)
+Recommends: matlab-support
+Filename: ./matlab-psychtoolbox-3_3.0.19.14-2~nd130+1_all.deb
+Size: 4124
+MD5sum: f0e50e78e93d0080e830e8a6c506f9e6
+SHA1: 24abebcfaefc8af6e1418d209052e00c271d82e7
+SHA256: 7125863c20531b66d95f3a9b9401a5056462cc1d302d9c28028b0d3576775da5
+Section: non-free/science
+Priority: extra
+Homepage: http://psychtoolbox.org
+Description: toolbox for vision research -- Matlab bindings
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
+ .
+ This package exposes PTB-3 within Matlab environment.  It also provides
+ a convenience script ptb3-matlab to simplify running psychtoolbox in matlab.
+ .
+ See also http://www.psychtoolbox.org/UsingPsychtoolboxOnUbuntu for
+ additional information about systems tune-up and initial configuration.
+ .
+ For now it relies on -nonfree package providing binary builds of all
+ PTB-3 bindings for Matlab.
+
+Package: matlab-psychtoolbox-3-nonfree
+Source: psychtoolbox-3-nonfree
+Version: 3.0.19.14-2~nd130+1
+Architecture: amd64
+Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
+Installed-Size: 6380
+Depends: neurodebian-popularity-contest, psychtoolbox-3-lib (>= 3.0.19.14-2~nd130+1.dfsg), psychtoolbox-3-common (>= 3.0.19.14-2~nd130+1.dfsg), libx11-6, libxext6, libxfixes3, libxi6, libglut3.12 | freeglut3, libgl1 | libgl1-mesa-glx, libxmu6, libxpm4, libdc1394-25
+Recommends: libasound2, libfreenect0.5, libglib2.0-0, libglu1-mesa, libopenal1, libpciaccess0, libusb-1.0-0 (>= 2:1.0.9~), libxml2, libxrandr2, libxxf86vm1
+Filename: ./matlab-psychtoolbox-3-nonfree_3.0.19.14-2~nd130+1_amd64.deb
+Size: 2153414
+MD5sum: ac11533339c46c21ec747d2e5798c96f
+SHA1: 8eb163db5f2c020940dd007928402a83eea132dc
+SHA256: 106de5770b8a55a827dddc5e998d1691d22e14deb7b4888b0248356e4d241951
+Section: non-free/science
+Priority: extra
+Homepage: http://psychtoolbox.org
+Description: toolbox for vision research -- Matlab binary blobs
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
+ .
+ This package contains binary builds for Datapixx and Eyelink bindings for
+ Matlab built/supported/distributed by upstream.
+
 Package: multiarch-support
 Source: glibc
 Version: 2.28-10
@@ -175,6 +249,39 @@ Description: Transitional package to ensure multiarch compatibility
  This is a transitional package used to ensure multiarch support is present
  in ld.so before unpacking libraries to the multiarch directories.  It can
  be removed once nothing on the system depends on it.
+
+Package: octave-psychtoolbox-3-nonfree
+Source: psychtoolbox-3-nonfree
+Version: 3.0.19.14-2~nd130+1
+Architecture: amd64
+Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
+Installed-Size: 799
+Depends: neurodebian-popularity-contest, octave-psychtoolbox-3 (>= 3.0.19.14-2~nd130+1.dfsg), psychtoolbox-3-common (>= 3.0.19.14-2~nd130+1.dfsg)
+Filename: ./octave-psychtoolbox-3-nonfree_3.0.19.14-2~nd130+1_amd64.deb
+Size: 285158
+MD5sum: 56e8e47400e00655cb30658ede702e32
+SHA1: fb3e2d2ece0fcf296a269e53ea521a5ad324b48c
+SHA256: d5cca00c7ad3100a16b29e4ae9932d5cbfb6d183f719fa807384494032e190ea
+Section: non-free/science
+Priority: extra
+Homepage: http://psychtoolbox.org
+Description: toolbox for vision research -- Octave binary blobs
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
+ .
+ This package contains binary builds for Datapixx and Eyelink bindings for
+ Octave built/supported/distributed by upstream.
 
 Package: par2-turbo
 Source: par2cmdline-turbo
