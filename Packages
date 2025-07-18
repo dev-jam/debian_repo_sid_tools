@@ -349,16 +349,16 @@ Description: Utilities to read BIOPAC AcqKnowledge files
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-dirsync
-Version: 0:2.2.5-1~w2d1
+Version: 0:2.2.6-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 60
-Depends: python3-six, python3:any
-Filename: ./python3-dirsync_2.2.5-1~w2d1_all.deb
-Size: 11152
-MD5sum: 8429791056fa194caf2b03e9c9b4db12
-SHA1: 238f42ae8cdf89126b970ccf123d2dbde6ee685f
-SHA256: acc2aab3844505c955ae424183a34108f7e17b175551c4f8864283931115a7cf
+Installed-Size: 62
+Depends: python3:any
+Filename: ./python3-dirsync_2.2.6-1~w2d0_all.deb
+Size: 11304
+MD5sum: ac78530658bca5d21724b3237846e8f5
+SHA1: 6edfd824fc495f6737e160a24a2b9efa293a8826
+SHA256: 6d54a64e950996155a54790e2369760df3039aa462181710c200ab8d66e0a58d
 Section: python
 Priority: optional
 Homepage: https://github.com/tkhyn/dirsync/
